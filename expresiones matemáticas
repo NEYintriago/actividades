@@ -1,0 +1,168 @@
+// ejercicio1
+// Dado a=3 y b=7, encuentra el valor de y = 2 * a + b - a mod 3.
+//y=2*a+b-a mod 3
+//2*3+7-3mod3
+//6+7-0
+// 13
+//finalmente mostramos el resultado
+funcion ejercicio1(0)
+	Definir x Como Entero
+	a=3; b=7
+	x =2*a+b-a mod 3
+	Escribir x
+FinFuncion
+
+//ejercicio2
+//Si a=10 y b=4, calcula el valor de z = a * b + 3 mod a + b.
+//z=a*b+3mod a+b
+//10*4+3% 10+4
+//40 +3+4
+//47
+//finalmente mostramo el resultado 
+funcion ejercicio2(0)
+	Definir z Como Entero
+	a=10; b=4 
+	z=a*b+3 mod a+b 
+	Escribir z
+FinFuncion
+
+//ejercicio3
+//Con a=6 y b=2, determina el valor de w = a - b + 2 * a mod b.
+//w=a-b+2*a mod b
+//6-2+2*mod 2
+//6-2+12mod 2
+//6-2+0
+//4
+//finalmente mostramos el resultado 
+Funcion ejercicio3(0)
+	Definir w Como Entero
+	a=6; b=2 
+	w=a-b+2* a mod b 
+	Escribir w
+FinFuncion
+
+// ejercicio4
+//Para a=8 y b=5, encuentra el valor de v = 2 * b + a div 2 + 4 * b mod a.
+//v=2 * b + a trunc 2 + 4 * b mod a.
+//2*5+8 dic 2+4*8 mod 8
+//10+4
+//14
+//finalmente mostramos el resultado 
+Funcion  ejercicio4(0)
+	Definir v Como Real
+	a=8;b=5; 
+	v = 2*b+adiv2+4*b% a;
+	Escribir v 
+FinFuncion
+
+//ejercicio5
+//. Si a=12 y b=9, calcula el valor de u = b - a + 3 * a mod b.
+//u=b-a+3*a mod b
+//9-12+3*12 mod b
+//3-12+36 mood 9
+// 9-12+0
+//-3
+//finalmente mostramos el resultado 
+Funcion ejercicio5(0)
+	Definir u Como Entero
+	a=12; b=9 
+	u = b-a+3 * a % b 
+	Escribir u
+FinFuncion
+
+// ejercicio6
+//(5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+//(5 + 6) + 9 > 3 * 5 * 14 % 3 
+// 11 + 9 > 15 * 14 % 3
+//11 + 9 > 210 % 3
+//11 + 9 > 0
+// 20 > 0 
+// verdadero 
+//finalmente mostramos el resultado 
+funcion ejercicio6(0)
+	Definir d Como Logico
+	d=  (5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+	Escribir d
+	
+FinFuncion
+
+//ejerccicio7
+//2 (4 - 10 + 8)/2 36 *(1/2)
+//2 * (-6 + 8) /2* 36 *(1/2)
+//2 * 2 /2 *36 * 0.5
+//4 / 2 * 36 * 0.5
+// 2*36 *o.5
+// 72 * 0.5 
+// 36
+//finalmente mostramos el resultado
+Funcion ejercicio7(0)
+	Definir f Como Entero
+	f= 2* (4 - 10 + 8)/2 * 36 * (1/2)
+	Escribir f 
+FinFuncion
+
+//ejercicio8
+//260 / 12 + 54 % 3 - 85 % 7
+// 21,666666666667+ 54 % 3 - 85 % 7
+//21,6666666666667  +0 - 85 % 7
+//21,6666666666667 + 0 - 1
+// 21,666666666667 - 1
+// 20,666666666667
+//finalmente mostramos el resultado
+funcion ejercicio8(0)
+	Definir h Como Real
+	h= 260 / 12 + 54 % 3 - 85 % 7
+	Escribir h
+	
+FinFuncion
+
+
+//ejercicio9
+//(48 < 2 * 3) | | (2 * 7 < 12)
+//(48 < 6 ) | | (2 * 7 < 12)
+//falso | | (2 * 7 < 12)
+//falso | | (14< 12)
+//falso | | falso 
+// falso 
+//finalmente mostramos el resultado
+Funcion ejercicio9(0)
+	Definir resultado Como Logico
+	resultado= (48 < 2 * 3) |  (2 * 7 < 12)
+	Escribir resultado
+	
+FinFuncion
+
+//ejercicio10 
+// ((8 > 2) | | (932 < 23) ) && 4 == 2
+// verdadero | | (932 < 23) ) &&  4 == 2
+// verdadero | | falso ) && 4 ==2
+// verdadero | | && 4 == 2
+// verdadero  &&  falso 
+//  falso 
+//finalmente mostramos el resultado
+funcion ejercicio10(0)
+	Definir resultado Como Logico
+	resultado = ((8 > 2) |  (932 < 23) ) & 4 == 2
+	Si resuultado Entonces
+		Escribir "expresion verdaderas "
+	SiNo
+		Escribir "falso"
+		
+	Fin Si
+	
+FinFuncion
+
+Algoritmo ejercicio_expresiones_matemticas
+	
+	//ejercicio1(0)
+	//ejercicio2(0)
+	//ejercicio3(0)
+	//ejercicio4(0)
+	//ejercicio5(0)
+	//ejercicio6(0)
+	//ejercicio7(0)
+	//ejercicio8(0)
+	//ejercicio9(0)
+	//ejercicio10(0)
+	
+FinAlgoritmo
